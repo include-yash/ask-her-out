@@ -4,6 +4,12 @@
         <link rel="stylesheet" href="./yes_style.css">
         
     </head> 
+    <script>
+        // Check if the page was reloaded (not initially visited)
+        if (performance.navigation.type === 1) {
+            window.location.href = "index.html"; // Redirect to index.html on refresh
+        }
+    </script>
     <body>
         <div class="container">
             <div >
